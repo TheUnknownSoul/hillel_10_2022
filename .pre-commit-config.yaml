@@ -10,7 +10,7 @@ repos:
         pass_filenames: false
       - id: flake8
         name: flake8
-        entry: flake8 ./
+        entry: flake8 --ignore=E501 ./
         description: "Linter"
         language: system
         types: [python]
